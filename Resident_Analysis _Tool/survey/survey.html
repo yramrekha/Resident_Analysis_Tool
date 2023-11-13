@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    
+<link rel="stylesheet" href="survey_style.css">
+</head>
+<body>
+    
+    <h1>Resident Satisfaction Survey Form</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+
+        <img src="../pictures/logo.jpeg" alt="Logo" class="logo">
+
+<!--choose the retirement name-->
+        <div class="form-control">
+            <label for="location" id="label-location">
+                Choose your retirement home
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="location" id="location">
+                <option value="Please Select">Please Select</option>
+                <option value="Chartwell Residences">Chartwell Residences</option>
+                <option value="Revera Living">Revera Living</option>
+                <option value="Maplewood Community">Maplewood Community</option>
+                <option value="Bridlewood Living">Bridlewood Living</option>
+                <option value="The Redwoods">The Redwoods</option>
+            </select>
+        </div>
+         <!-- Input Type Radio Button for the age -->
+        <div class="form-control">
+            <label>
+                Age Group:
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="age-1">
+                <input type="radio" name="Age">60 to 69</input value="60-69">
+            </label>
+            <label for="age-2">
+                <input type="radio" name="Age">70 to 79</input value="70-79">
+            </label>
+            <label for="age-3">
+                <input type="radio" name="Age">80 to 89</input value="80-89">
+            </label>
+            <label for="age-4">
+                <input type="radio" name="Age">Over 90</input value="90+">
+            </label>
+        </div>
+
+ <!-- Input the gender of the resident -->
+        <div class="form-control">
+            <label>
+                Gender:
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="Gender-1">
+                <input type="radio" id="Male" name="Gender">Male</input value="Male">
+            </label>
+            <label for="Gender-2">
+                <input type="radio" id="Female" name="Gender">Female</input value="Female">
+            </label>
+        </div>
+        
+    
+    </head>
+    <body>
+        <h2>Rate each of the following categories on the scale 1 to 5 with 5 being very good.</h2>
+        <form>
+            <table border="0">
+                <tr>
+                    <th>Section</th>
+                    <th>5</th>
+                    <th>4</th>
+                    <th>3</th>
+                    <th>2</th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <td>Food</td>
+                    <td><input type="radio" name="food" value="5"></td>
+                    <td><input type="radio" name="food" value="4"></td>
+                    <td><input type="radio" name="food" value="3"></td>
+                    <td><input type="radio" name="food" value="2"></td>
+                    <td><input type="radio" name="food" value="1"></td>
+                </tr>
+                <tr>
+                    <td>Entertainment</td>
+                    <td><input type="radio" name="entertainment" value="5"></td>
+                    <td><input type="radio" name="entertainment" value="4"></td>
+                    <td><input type="radio" name="entertainment" value="3"></td>
+                    <td><input type="radio" name="entertainment" value="2"></td>
+                    <td><input type="radio" name="entertainment" value="1"></td>
+                </tr>
+                <tr>
+                    <td>Staff</td>
+                    <td><input type="radio" name="staff" value="5"></td>
+                    <td><input type="radio" name="staff" value="4"></td>
+                    <td><input type="radio" name="staff" value="3"></td>
+                    <td><input type="radio" name="staff" value="2"></td>
+                    <td><input type="radio" name="staff" value="1"></td>
+                </tr>
+                <tr>
+                    <td>Amenities</td>
+                    <td><input type="radio" name="amenities" value="5"></td>
+                    <td><input type="radio" name="amenities" value="4"></td>
+                    <td><input type="radio" name="amenities" value="3"></td>
+                    <td><input type="radio" name="amenities" value="2"></td>
+                    <td><input type="radio" name="amenities" value="1"></td>
+                </tr>
+                <tr>
+                    <td>Cleanliness</td>
+                    <td><input type="radio" name="cleanliness" value="5"></td>
+                    <td><input type="radio" name="cleanliness" value="4"></td>
+                    <td><input type="radio" name="cleanliness" value="3"></td>
+                    <td><input type="radio" name="cleanliness" value="2"></td>
+                    <td><input type="radio" name="cleanliness" value="1"></td>
+                </tr>
+                <tr class="extra-spacing"></tr>
+            </table> 
+
+        <div class="form-control">
+             <label>
+                Would you recommend your retirement home to a friend or an acquaintance?
+                </label>
+     
+                <!-- Input Type Radio Button -->
+                <label for="recommend-1">
+                    <input type="radio" name="recommend">Yes</input value="Yes">
+                </label>
+                <label for="recommend-2">
+                    <input type="radio" name="recommend">No</input value="No">
+                </label>
+                <label for="recommend-3">
+                    <input type="radio" name="recommend">Maybe</input value="Maybe">
+                </label>
+            </div>
+
+            <div class="form-control">
+                <label>
+                   Are you considering to move to another retirement home within the next year?
+                   </label>
+        
+                   <!-- Input Type Radio Button -->
+                   <label for="move-1">
+                    <input type="radio" name="move">Yes</input value="Yes">
+                   </label>
+                   <label for="move-2">
+                    <input type="radio" name="recommend">No</input value="No">
+                   </label>
+                   <label for="move-3">
+                    <input type="radio" name="recommend">Maybe</input value="Maybe">
+                   </label>
+                </div>
+       
+            <!-- Add a submit button to submit the form -->
+            <input type="submit" value="Submit">
+        </form>
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+    <div id="thankYouMessage" class="hidden">
+        <h3>Thank You for Your Time</h3>
+        <h3>Your feedback is valuable to us.</h3>
+    </div>
+    </form>
+</body>
+</html>
+

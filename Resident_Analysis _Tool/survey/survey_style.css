@@ -1,0 +1,150 @@
+/* Styling the Body element i.e. Color, 
+        Font, Alignment */ 
+        body {
+            background: url('../pictures/background.jpeg') no-repeat center center fixed; /* Specify the path to your background image */
+            background-size: cover;
+            font-family: Verdana;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .logo {
+            max-width: 200px; /* Set the maximum width of the logo */
+            height: auto;
+            margin: 20px; /* Adjust margin as needed */
+        }
+
+        h1 {
+            background-color: transparent;
+            font-family: Verdana;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolder;
+            color: #ffffff;
+        }
+
+        h3 {
+            background-color: transparent;
+            font-family: Verdana;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */ 
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input, 
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio 
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 25px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        input[type="submit"] {
+            background-color: #05c46b;
+            width: 200px;
+            height: 60px; 
+            font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            color: black
+        }
+        h2 {
+            text-align: left;
+            font-weight: normal;
+            font-size: 18px;
+        }
+
+        /* Style for the survey table */
+        table {
+            border-collapse: collapse;
+            width: 50%;
+ 
+        }
+
+        /* Style for table header cells */
+        th {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 8px;
+        }
+
+        /* Style for table data cells */
+        td {
+            text-align: center;
+            padding: 8px;
+        }
+
+        table {
+            border: 0;
+        }
+
+
+        .top-right-image {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            max-width: 100px; 
+            height: auto;
+        }
+
+        .welcome-button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: Verdana;
+            font-size: 25px;
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #ffffff;
+            margin-top: 30px;
+        }
+
+        
