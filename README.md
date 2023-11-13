@@ -1,6 +1,8 @@
 # **Revolutionizing Retirement Living: A Strategic Analysis of Competitor Facilities**
 
-  
+<p align="center">
+    <img src="Resident_Analysis _Tool/pictures/senior 2.jpeg" alt="Seniors smiling">
+</p>
   
 **Introduction**
 
